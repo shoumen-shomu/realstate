@@ -17,3 +17,15 @@
   @apply font-pop font-semibold text-[36px] text-[#203239] leading-[150%] w-[533px] mb-[64px]
 }
 /* About Part End */
+
+/* Feature Part Start */
+#featurePart{
+  @apply py-[68px] bg-[#EEEDDE]
+}
+/* Feature Part End */
+
+/* Catalog part Start */
+#catalogPart{
+  @apply py-[68px] 
+}
+/* Catalog part End */
