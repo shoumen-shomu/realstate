@@ -303,6 +303,13 @@
       margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)));
     }
   }
+  .space-x-16 {
+    :where(& > :not(:last-child)) {
+      --tw-space-x-reverse: 0;
+      margin-inline-start: calc(calc(var(--spacing) * 16) * var(--tw-space-x-reverse));
+      margin-inline-end: calc(calc(var(--spacing) * 16) * calc(1 - var(--tw-space-x-reverse)));
+    }
+  }
   .space-x-\[40px\] {
     :where(& > :not(:last-child)) {
       --tw-space-x-reverse: 0;
@@ -325,6 +332,9 @@
   }
   .border-\[\#203239\] {
     border-color: #203239;
+  }
+  .bg-\[\#203239\] {
+    background-color: #203239;
   }
   .bg-\[\#EEEDDE\] {
     background-color: #EEEDDE;
@@ -352,6 +362,9 @@
   }
   .py-\[23px\] {
     padding-block: 23px;
+  }
+  .py-\[31px\] {
+    padding-block: 31px;
   }
   .py-\[50px\] {
     padding-block: 50px;
@@ -476,6 +489,9 @@
   .text-\[\#203239\] {
     color: #203239;
   }
+  .text-\[\#EEEDDE\] {
+    color: #EEEDDE;
+  }
   .text-\[\#FF7527\] {
     color: #FF7527;
   }
@@ -578,6 +594,26 @@
     &::after {
       --tw-content: '';
       content: var(--tw-content);
+    }
+  }
+  .hover\:scale-1 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-scale-x: 1%;
+        --tw-scale-y: 1%;
+        --tw-scale-z: 1%;
+        scale: var(--tw-scale-x) var(--tw-scale-y);
+      }
+    }
+  }
+  .hover\:scale-105 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-scale-x: 105%;
+        --tw-scale-y: 105%;
+        --tw-scale-z: 105%;
+        scale: var(--tw-scale-x) var(--tw-scale-y);
+      }
     }
   }
   .hover\:scale-110 {
