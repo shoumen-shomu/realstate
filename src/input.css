@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --font-pop: "Poppins", sans-serif; 
+}
+
+.container{
+    @apply max-w-[1166px] mx-auto items-center
+}
