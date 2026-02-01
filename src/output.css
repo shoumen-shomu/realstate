@@ -211,11 +211,8 @@
   .flex {
     display: flex;
   }
-  .table {
-    display: table;
-  }
-  .w-109 {
-    width: calc(var(--spacing) * 109);
+  .w-89 {
+    width: calc(var(--spacing) * 89);
   }
   .w-109\.5 {
     width: calc(var(--spacing) * 109.5);
@@ -238,14 +235,8 @@
   .w-\[817px\] {
     width: 817px;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .cursor-pointer {
     cursor: pointer;
-  }
-  .resize {
-    resize: both;
   }
   .items-center {
     align-items: center;
@@ -309,6 +300,9 @@
   .pt-2 {
     padding-top: calc(var(--spacing) * 2);
   }
+  .pt-4 {
+    padding-top: calc(var(--spacing) * 4);
+  }
   .pt-7 {
     padding-top: calc(var(--spacing) * 7);
   }
@@ -323,6 +317,9 @@
   }
   .pr-\[19px\] {
     padding-right: 19px;
+  }
+  .pb-2 {
+    padding-bottom: calc(var(--spacing) * 2);
   }
   .pb-16 {
     padding-bottom: calc(var(--spacing) * 16);
@@ -358,15 +355,14 @@
   .text-\[22px\] {
     font-size: 22px;
   }
+  .text-\[24px\] {
+    font-size: 24px;
+  }
   .text-\[36px\] {
     font-size: 36px;
   }
   .text-\[60px\] {
     font-size: 60px;
-  }
-  .leading-7 {
-    --tw-leading: calc(var(--spacing) * 7);
-    line-height: calc(var(--spacing) * 7);
   }
   .leading-7\.5 {
     --tw-leading: calc(var(--spacing) * 7.5);
@@ -402,18 +398,11 @@
   .text-\[\#FF7527\] {
     color: #FF7527;
   }
-  .underline {
-    text-decoration-line: underline;
-  }
   .opacity-55 {
     opacity: 55%;
   }
   .opacity-\[0\.55\] {
     opacity: 0.55;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .transition-transform {
     transition-property: transform, translate, scale, rotate;
@@ -577,6 +566,10 @@
 #catalogPart {
   padding-block: 68px;
 }
+.catalogOne {
+  display: flex;
+  justify-content: space-between;
+}
 @property --tw-space-x-reverse {
   syntax: "*";
   inherits: false;
@@ -594,11 +587,6 @@
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
 @property --tw-duration {
   syntax: "*";
@@ -711,7 +699,6 @@
       --tw-border-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
-      --tw-outline-style: solid;
       --tw-duration: initial;
       --tw-content: "";
       --tw-translate-x: 0;

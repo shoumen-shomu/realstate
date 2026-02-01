@@ -28,4 +28,7 @@
 #catalogPart{
   @apply py-[68px] 
 }
+.catalogOne{
+  @apply flex justify-between
+}
 /* Catalog part End */
