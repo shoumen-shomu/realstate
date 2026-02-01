@@ -176,8 +176,14 @@
   .absolute {
     position: absolute;
   }
+  .fixed {
+    position: fixed;
+  }
   .relative {
     position: relative;
+  }
+  .sticky {
+    position: sticky;
   }
   .top-0 {
     top: calc(var(--spacing) * 0);
@@ -299,6 +305,9 @@
   .w-\[817px\] {
     width: 817px;
   }
+  .w-full {
+    width: 100%;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -395,6 +404,18 @@
   }
   .px-\[41px\] {
     padding-inline: 41px;
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
+  }
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
+  }
+  .py-12 {
+    padding-block: calc(var(--spacing) * 12);
+  }
+  .py-12\.5 {
+    padding-block: calc(var(--spacing) * 12.5);
   }
   .py-\[10px\] {
     padding-block: 10px;
@@ -580,6 +601,11 @@
   .outline-none {
     --tw-outline-style: none;
     outline-style: none;
+  }
+  .placeholder\:text-\[\#203239\]\/\[0\.55\] {
+    &::placeholder {
+      color: color-mix(in oklab, #203239 55.00000000000001%, transparent);
+    }
   }
   .after\:absolute {
     &::after {
