@@ -31,4 +31,8 @@
 .catalogOne{
   @apply flex justify-between
 }
+
+#contactPart{
+  @apply py-[48px] bg-[#EEEDDE]
+}
 /* Catalog part End */
