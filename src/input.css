@@ -7,3 +7,13 @@
 .container{
     @apply max-w-[1166px] mx-auto items-center
 }
+
+
+/* About Part Start */
+#aboutPart{
+   @apply py-[100px]
+}
+.aboutHeading{
+  @apply font-pop font-semibold text-[36px] text-[#203239] leading-[150%] w-[533px] mb-[64px]
+}
+/* About Part End */

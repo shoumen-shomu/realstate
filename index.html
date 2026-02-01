@@ -1,90 +1,191 @@
 <!doctype html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./src/output.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
     <!-- Google Fonts Start -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Google Fonts End -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="bg-[#EEEDDE]">
-            <nav>
-                <div class="container">
-                    <div class="py-[50px] flex justify-between">
-                        <div class="logo">
-                            <img src="Images/logo.png" alt="logo.png">
-                        </div>
-                        <div class="">
-                            <ul class="flex items-center gap-[100px]">
-                                <li><a class="font-pop font-normal text-base text-[#203239] hover:font-semibold duration-500 relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-[#F6762E] after:transition-all after:duration-400 hover:after:w-[60%]"
-                                        href="">Home</a></li>
-                                <li><a class="font-pop font-normal text-base text-[#203239] hover:font-semibold duration-500 relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-[#F6762E] after:transition-all after:duration-400 hover:after:w-[60%]"
-                                        href="">About</a></li>
-                                <li><a class="font-pop font-normal text-base text-[#203239] hover:font-semibold duration-500 relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-[#F6762E] after:transition-all after:duration-400 hover:after:w-[60%]"
-                                        href="">Properties</a></li>
-                                <li><a class="font-pop font-normal text-base text-[#203239] hover:font-semibold duration-500 relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-[#F6762E] after:transition-all after:duration-400 hover:after:w-[60%]"
-                                        href="">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <!-- Banner Part Start -->
-            <section>
-                <div class="pt-[138px] pb-[120px] bg-[#EEEDDE]">
-                    <div class="container">
-                        <div class=" flex justify-between">
-                            <div class="w-[817px] mt-[23px]">
-                                <h1 class="font-pop font-semibold text-[60px] text-[#203239] leading-[150%] w-[817px]">
-                                    Temukan Hunian Keluarga Sesuai Keinginanmu</h1>
-                                <p
-                                    class="font-pop font-light text-[16px] text-[#203239] leading-[30px] w-[544px] pb-[55px] pt-7  ">
-                                    Menyediakan hunian bagi keluarga anda dengan varian pilihan dan lokasi yang
-                                    strategis
-                                    di kota anda dengan cara yang lebih mudah.</p>
-                                <div class="flex gap-[15px]">
-                                    <div
-                                        class="py-[23px] pl-[20px] rounded-[15px] bg-white w-[508px] flex items-center gap-[10px]">
-                                        <div class="">
-                                            <i class="fa-solid fa-location-dot text-[22px]"></i>
-                                        </div>
-                                        <div class="">
-                                            <label for="">
-                                                <input
-                                                    class="w-109.5 placeholder: font-pop font-light text-base text-[#203239] opacity-55 outline-none"
-                                                    type="text"
-                                                    placeholder="Search location, properties, residental group">
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="py-[23px] px-[41px] bg-white rounded-[15px]">
-                                        <p class="font-pop font-light text-base text-[#203239] opacity-55">Search</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="rightContent">
-                                <img src="Images/bannerImage.png" alt="bannerImage.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Banner Part End -->
-        </div>
+      <div class="bg-[#EEEDDE]">
+        <nav>
+          <div class="container">
+            <div class="py-[50px] flex justify-between">
+              <div class="logo">
+                <img src="Images/logo.png" alt="logo.png" />
+              </div>
+              <div class="">
+                <ul class="flex items-center gap-[100px]">
+                  <li>
+                    <a
+                      class="font-pop font-normal text-base text-[#203239] hover:font-semibold duration-500 relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-[#F6762E] after:transition-all after:duration-400 hover:after:w-[60%]"
+                      href=""
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="font-pop font-normal text-base text-[#203239] hover:font-semibold duration-500 relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-[#F6762E] after:transition-all after:duration-400 hover:after:w-[60%]"
+                      href=""
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="font-pop font-normal text-base text-[#203239] hover:font-semibold duration-500 relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-[#F6762E] after:transition-all after:duration-400 hover:after:w-[60%]"
+                      href=""
+                      >Properties</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="font-pop font-normal text-base text-[#203239] hover:font-semibold duration-500 relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-[#F6762E] after:transition-all after:duration-400 hover:after:w-[60%]"
+                      href=""
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
-</body>
-
+    <!-- Banner Part Start -->
+    <section>
+      <div class="pt-[138px] pb-[120px] bg-[#EEEDDE]">
+        <div class="container">
+          <div class="flex justify-between">
+            <div class="w-[817px] mt-[23px]">
+              <h1
+                class="font-pop font-semibold text-[60px] text-[#203239] leading-[150%] w-[817px]"
+              >
+                Temukan Hunian Keluarga Sesuai Keinginanmu
+              </h1>
+              <p
+                class="font-pop font-light text-[16px] text-[#203239] leading-[30px] w-[544px] pb-[55px] pt-7"
+              >
+                Menyediakan hunian bagi keluarga anda dengan varian pilihan dan
+                lokasi yang strategis di kota anda dengan cara yang lebih mudah.
+              </p>
+              <div class="flex gap-[15px]">
+                <div
+                  class="py-[23px] pl-[20px] rounded-[15px] bg-white w-[508px] flex items-center gap-[10px]"
+                >
+                  <div class="">
+                    <i class="fa-solid fa-location-dot text-[22px]"></i>
+                  </div>
+                  <div class="">
+                    <label for="">
+                      <input
+                        class="w-109.5 placeholder: font-pop font-light text-base text-[#203239] opacity-55 outline-none"
+                        type="text"
+                        placeholder="Search location, properties, residental group"
+                      />
+                    </label>
+                  </div>
+                </div>
+                <div class="py-[23px] px-[41px] bg-white rounded-[15px]">
+                  <p
+                    class="font-pop font-light text-base text-[#203239] opacity-55"
+                  >
+                    Search
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="rightContent">
+              <img src="Images/bannerImage.png" alt="bannerImage.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner Part End -->
+    <!-- About Part Start -->
+    <section id="aboutPart">
+      <div class="container">
+        <div class="aboutWrapper">
+          <h1 class="aboutHeading">
+            Tahapan Pembelian Properti yang Mudah dan Cepat
+          </h1>
+          <div class="aboutCard flex justify-between">
+            <div class="py-[20px] pl-[34px] pr-[19px] rounded-[10px] hover:shadow-[0px_4px_4px_0px_#00000040] transition-transform duration-400 hover:scale-110">
+              <div class="flex justify-between">
+                <h3 class="font-pop font-medium text-base text-[#203239]">
+                  Pilih Properti
+                </h3>
+                <p class="font-pop font-medium text-base text-[#FF7527]">01</p>
+              </div>
+              <p
+                class="font-pop font-light text-base text-[#203239] leading-[30px] opacity-[0.55] w-[235px] pt-2 pb-[48px]"
+              >
+                Cari properti yang diinginkan sesuai dengan kriteria anda dan
+                keluarga. Cara memilih properti yang bijak dapat anda baca lebih
+                lanjut di sini
+              </p>
+              <p class="font-pop font-medium text-base text-[#203239]">
+                Baca lebih Lanjut
+                <i class="fa-solid fa-arrow-right pl-[10px]"></i>
+              </p>
+            </div>
+            <div class="py-[20px] pl-[34px] pr-[19px] rounded-[10px] hover:shadow-[0px_4px_4px_0px_#00000040] transition-transform duration-400 hover:scale-110">
+              <div class="flex justify-between">
+                <h3 class="font-pop font-medium text-base text-[#203239]">
+                  Pilih Properti
+                </h3>
+                <p class="font-pop font-medium text-base text-[#FF7527]">02</p>
+              </div>
+              <p
+                class="font-pop font-light text-base text-[#203239] leading-[30px] opacity-[0.55] w-[235px] pt-2 pb-[48px]"
+              >
+                Pembayaran dalam bentuk sejumlah uang sebagai komitmen memesan
+                unit properti tertentu.
+              </p>
+              <p class="font-pop font-medium text-base text-[#203239]">
+                Baca lebih Lanjut
+                <i class="fa-solid fa-arrow-right pl-[10px]"></i>
+              </p>
+            </div>
+            <div class="py-[20px] pl-[34px] pr-[19px] rounded-[10px] hover:shadow-[0px_4px_4px_0px_#00000040] transition-transform duration-400 hover:scale-110">
+              <div class="flex justify-between">
+                <h3 class="font-pop font-medium text-base text-[#203239]">
+                  KPR dan Sertifikasi
+                </h3>
+                <p class="font-pop font-medium text-base text-[#FF7527]">03</p>
+              </div>
+              <p
+                class="font-pop font-light text-base text-[#203239] leading-[30px] opacity-[0.55] w-[235px] pt-2 pb-[48px]"
+              >
+                Pembiayaan KPR untuk pembeli rumah dengan skema pembiayaan jika
+                diperlukan dan dilanjutkan proses sertifkasi HGB.
+              </p>
+              <p class="font-pop font-medium text-base text-[#203239]">
+                Baca lebih Lanjut
+                <i class="fa-solid fa-arrow-right pl-[10px]"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Part Start -->
+  </body>
 </html>
+FF7527
